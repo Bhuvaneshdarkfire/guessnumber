@@ -1,0 +1,52 @@
+div{
+    background-color: gold;
+    width:  100%;
+    height: 100%;
+}
+input{
+    padding-left: 100px;
+    align-content: center;
+    margin-left: 35%;
+    margin-top:80px; 
+    display: inline;
+}
+p{
+    display:block;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+button{
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 20%;
+    padding: 10px;
+    margin-left: 43%;
+    margin-top: 10px;
+    display: block;
+    
+
+}
+
+
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding: 30px;
+    background-color:rgb(111, 255, 67);
+    
+  
+}
+h4{
+    display:block;
+    margin-left: 35%;
+    margin-top: 20px;
+    font-size: 31px;
+    
+}
+h3{
+    display:block;
+    margin-left: 39%;
+    margin-top: 20px;
+    font-size: 30px;;
+}

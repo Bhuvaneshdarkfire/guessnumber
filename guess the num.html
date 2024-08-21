@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="style.css">
+
+<div>
+<h1>GUESS THE NUMBER</h1>
+    <input type="number" id="gnum">
+    <p>*Note:The Number gererated is Between 1 to 5</p>
+<button onclick="Check()">Check</button>
+<h4 id="result">You Are Right/Wrong</h4>
+<h3 id="sc">You Score is :10</h3>
+</div>
+
+
+
+
+<script>
+var num=document.getElementById("gnum")
+var out=document.getElementById("result")
+var score=document.getElementById("sc")
+var poi=10
+function Check()
+{
+    gen=Math.floor((Math.random()*10)/2)+1
+    enumb=Number(num.value)
+if (enumb==gen)
+{
+    result.textContent="You Are Right !!"
+    poi=poi+1
+    score.textContent="You Score is:"+poi
+
+}
+else
+{
+    result.textContent="You Are Wrong !!"
+    poi=poi-1
+    score.textContent="You Score is:"+poi
+}
+if (poi<1)
+{
+    alert("You Lose  !...")
+    location.reload()
+}
+}
+
+
+
+</script>
